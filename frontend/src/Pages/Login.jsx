@@ -3,13 +3,10 @@ import "./../Style/Login.css"
 import { Link } from 'react-router-dom';
 
 const Login = () => {
-
   const [Email, setEmail]=useState("");
   const [Password, setPassword] = useState("");
-
   return (
-    <div>
-        
+    <div>   
         <section className="vh-100" >
   <div className="container py-5 h-100">
     <div className="row d-flex justify-content-center align-items-center h-100">
@@ -20,11 +17,11 @@ const Login = () => {
             <h1 className="login-head mb-3"><b>Login in</b></h1>
 
             <div className="form-outline mb-3 ">
+
             <label className="form-label d-flex justify-content-left" for="typeEmailX-2" style={{color: "#002549"}}><b>Email:</b></label>
               <input type="email" id="typeEmailX-2" className="form-control form-control-lg  c" value={Email} onChange={(e)=>setEmail(e.target.value)} autoComplete='current-email' required/>
               
             </div>
-
 
             <div className="form-outline mb-3">
             <label className="form-label  d-flex justify-content-left" for="typePasswordX-2" style={{color: "#002549"}} ><b>Password:</b></label>
@@ -57,8 +54,6 @@ const Login = () => {
     </div>
   </div>
 </section>
-    </div>
-  )
-}
+    </div>)}
 
 export default Login

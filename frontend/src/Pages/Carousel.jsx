@@ -28,21 +28,33 @@ const Carousel = () => {
             >
               <img className="" src={img1} />
             </div>
+<<<<<<< HEAD
          
+=======
+
+>>>>>>> 6a04fd705ad79e3478cd47d99d70641d3d745b4d
             <div
               className="img-slide d-flex justify-content-center img-fluid"
               alt="Responsive image"
             >
               <img className="" src={img2} />
             </div>
+<<<<<<< HEAD
          
+=======
+
+>>>>>>> 6a04fd705ad79e3478cd47d99d70641d3d745b4d
             <div
               className="img-slide d-flex justify-content-center img-fluid"
               alt="Responsive image"
             >
               <img className="" src={img3} />
             </div>
+<<<<<<< HEAD
          
+=======
+
+>>>>>>> 6a04fd705ad79e3478cd47d99d70641d3d745b4d
             <div
               className="img-slide d-flex justify-content-center img-fluid"
               alt="Responsive image"

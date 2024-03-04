@@ -9,13 +9,18 @@ const Home = () => {
 
   return (
     <>
+    {/* navbar here */}
     <Navbar/>
-    <div className='caruosel  d-flex justify-content-center'>
-    <Carousel/>
-    </div>
-    <div>
 
-    </div>
+    {/* carousel here */}
+        <div className='caruosel  d-flex justify-content-center'>
+           <Carousel/>
+        </div>
+    
+    {/* home working comes here */}
+
+    
+    
     </>
 
   )
