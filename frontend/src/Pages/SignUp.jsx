@@ -23,7 +23,7 @@ const SignUp = () => {
             <div className='d-flex justify-cntent-between'>
                 <div className=''>
                 <label className="form-label d-flex justify-content-left" for="typePasswordX-2" style={{color: "#002549"}} ><b>First Name:</b></label>
-              <input type="text" id="typeName" className="form-control form-control-lg" value={name} onChange={(e)=>setPassword(e.target.value)} autoComplete='current-name'  required/>
+              <input type="text" id="typeName" className="form-control form-control-lg"  onChange={(e)=>setPassword(e.target.value)} autoComplete='current-name'  required/>
                 </div>
                     <span className='mx-2'></span>
                 <div className=''>
@@ -52,7 +52,7 @@ const SignUp = () => {
 
             <div className="form-outline mb-3">
             <label className="form-label  d-flex justify-content-left" for="typePasswordX-2" style={{color: "#002549"}} ><b>Confirm Password:</b></label>
-              <input type="password" id="typePasswordX-2" className="form-control form-control-lg" value={confirm}  autoComplete='current-password'  required/>
+              <input type="password" id="typePasswordX-2" className="form-control form-control-lg"   autoComplete='current-password'  required/>
             </div>
 
             <div className="form-check d-flex justify-content-start mb-4">

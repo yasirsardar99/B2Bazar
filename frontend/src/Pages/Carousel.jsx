@@ -6,7 +6,6 @@ import img2 from "./../data/carousel/2.jpg"
 import img3 from "./../data/carousel/3.jpg"
 import img4 from "./../data/carousel/4.png"
 
-
 const Carousel = () => {
   
     var settings = {
@@ -22,30 +21,35 @@ const Carousel = () => {
       <section className="homeSlider">
         <div className="container">
           <Slider {...settings}>
+         
             <div
               className="img-slide d-flex justify-content-center img-fluid"
               alt="Responsive image"
             >
               <img className="" src={img1} />
             </div>
+         
             <div
               className="img-slide d-flex justify-content-center img-fluid"
               alt="Responsive image"
             >
               <img className="" src={img2} />
             </div>
+         
             <div
               className="img-slide d-flex justify-content-center img-fluid"
               alt="Responsive image"
             >
               <img className="" src={img3} />
             </div>
+         
             <div
               className="img-slide d-flex justify-content-center img-fluid"
               alt="Responsive image"
             >
               <img className="" src={img4} />
             </div>
+         
             <div
               className="img-slide d-flex justify-content-center img-fluid "
               alt="Responsive image"

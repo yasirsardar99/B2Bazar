@@ -2,12 +2,13 @@ import Login from "./Pages/Login.jsx"
 import SignUp from "./Pages/SignUp.jsx"
 import Home from "./Pages/Home.jsx"
 import Navbar from "./Pages/Navbar.jsx"
+import Productpage from "./Pages/Productpage.jsx"
 
 
-
-export{
+export {
     Navbar,
     SignUp,
     Login,
     Home,
+    Productpage
 }
