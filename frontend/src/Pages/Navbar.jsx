@@ -39,11 +39,11 @@ const Navbar = () => {
                                 <i className="fa fa-shopping-cart "></i> Cart 
                                 <ShoppingCartIcon className='mx-1'/>
                             </a> */}
-                            <a className="nav-link d-flex" href="#">
+                            <Link className="nav-link d-flex" to="/add-to-cart">
                                  <Badge badgeContent={3}  color="warning">
                                  <ShoppingCartIcon className='mx-1 ' color="white" />
                                 </Badge>
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link d-flex" href="#">
