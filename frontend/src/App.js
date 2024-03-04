@@ -1,8 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-// import Navbar from './Pages/Navbar'
-import {Login, SignUp, Home, Navbar} from './Routes'
+import {Login, SignUp, Home, AddToCart} from './Routes'
 
 
 
@@ -15,8 +14,8 @@ function App() {
             {/* <Route index element={<Navbar />}/> */}
             <Route path="/login" element={<Login/>} />
             <Route path="/sign-up" element={<SignUp/>} />
-
             <Route path="/" element={<Home/>} />
+            <Route path="/add-to-cart" element={<AddToCart/>} />
       </Routes>
     </BrowserRouter>
   );
