@@ -1,0 +1,21 @@
+.cat-img{
+    border: 3px solid rgb(211, 211, 211);
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.category{
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cat-thumbnail{
+    font-size: 14px;
+    margin-top: 4px;
+    font-weight:lighter;
+    font-family:"Noto Serif Khojki";
+}

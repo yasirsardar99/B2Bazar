@@ -1,7 +1,8 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import {Login, SignUp, Home, AddToCart} from './Routes'
+import {Login, SignUp, Home, AddToCart, TopSales, Products } from './Routes'
+
 
 
 
@@ -16,6 +17,8 @@ function App() {
             <Route path="/sign-up" element={<SignUp/>} />
             <Route path="/" element={<Home/>} />
             <Route path="/add-to-cart" element={<AddToCart/>} />
+            <Route path="/top-sales" element={<TopSales/>} />
+            <Route path="/products" element={<Products/>} />
       </Routes>
     </BrowserRouter>
   );
