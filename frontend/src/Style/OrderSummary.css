@@ -1,0 +1,38 @@
+.Order-Summary {
+    width: 400px;
+    height: 483px;
+    background-color: LightGrey;
+    border: 15px solid white;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .payment-options-box {
+    width: 678px;
+    height: 198px;
+    background-color: LightGrey;
+    border: 15px solid white;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .address-box {
+    width: 678px;
+    height: 127px;
+    background-color: LightGrey;
+    border: 15px solid white;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .Additional-Information{
+    width: 678px;
+    height: 136px;
+    background-color: LightGrey;
+    border: 15px solid white ;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  
+  

@@ -6,7 +6,6 @@ import {Navbar} from "./../../src/Routes.js"
 
 
 const Home = () => {
-
   return (
     <>
     {/* navbar here */}
@@ -18,11 +17,8 @@ const Home = () => {
         </div>
     
     {/* home working comes here */}
-
-    
-    
+  
     </>
-
   )
 }
 
