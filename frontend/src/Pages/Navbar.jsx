@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {  
-
+    
   return (
     <div className="main-navbar shadow-sm sticky-top">
     <div className="top-navbar">
