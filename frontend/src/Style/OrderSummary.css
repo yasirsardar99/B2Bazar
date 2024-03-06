@@ -1,6 +1,6 @@
 .address-box {
   width: 678px;
-  height: 127px;
+  height: 150px;
   background-color: rgb(250, 232, 75);
   border: 15px solid white;
   padding: 10px;
@@ -10,7 +10,7 @@
 
 .payment-options-box {
   width: 678px;
-  height: 198px;
+  height: 190px;
   background-color: rgb(250, 232, 75);
   border: 15px solid white;
   padding: 10px;
@@ -20,7 +20,7 @@
 
 .Additional-Information {
   width: 678px;
-  height: 136px;
+  height: 147px;
   background-color: rgb(250, 232, 75);
   border: 15px solid white;
   padding: 10px;

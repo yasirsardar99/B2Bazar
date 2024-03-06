@@ -71,58 +71,6 @@ const NavbarOfCart = () => {
           </div>
         </div>
       </div>
-
-      {/* bottom navbar sections  */}
-
-      {/* <div>
-        <nav className='bottom-nav align-items-center bg-warning p-1'>
-      
-        <div className='d-flex justify-content-between'>
-        <div className='category-main mx-2 ' >
-            Mobile & tablet
-        </div>
-
-        <div className='category-main mx-2' >
-            Home & Kitchen
-        </div>
-        
-        <div className='category-main mx-2' >
-            Health & Beauty
-        </div>
-        
-        <div className='category-main mx-2' >
-            Men's Fashion
-        </div>
-        
-        <div className='category-main mx-2' >
-            Mother & Baby
-        </div>
-        
-        <div className='category-main mx-2' >
-            Electronics
-        </div>
-        
-        <div className='category-main mx-2' >
-            Sports & Outdoor
-        </div>
-        
-        <div className='category-main mx-2' >
-            Bags & jewellery
-        </div>
-        
-        <div className='category-main mx-2' >
-            Automotive
-        </div>
-        
-        <div className='category-main mx-2' >
-            TV & Home 
-        </div>
-
-        </div>
-
-         </nav>
-    
-    </div>*/}
     </div>
   );
 };
