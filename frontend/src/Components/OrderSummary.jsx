@@ -14,52 +14,30 @@ import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 
 const OrderSummary = () => {
   return (
-    <div style={{ display: "flex", flexDirection: "row" }}>
-      <div style={{ flex: 1 }}>
+    <div className="Address-Pay-Additional">
+      <div>
         {/* ADDRESS BOX */}
         <Box className="address-box">
           <Typography variant="h6">Address:</Typography>
-          <div
-            style={{
-              width: "638px",
-              height: "0px",
-              border: "1px solid white",
-              marginBottom: "10px",
-              meginleft: "1px",
-            }}
-          ></div>
+
+          <div className="divider" />
           <div
             style={{
               display: "flex",
               flexDirection: "row",
             }}
           >
-            <div>
-              <il
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                }}
-              >
-                <input type="radio" value="" id="yasir" name="person" />
-                <label for="yasir">Yasir</label>
+            <div className="Address-list">
+              <il>
+                <input type="radio" value="" id="Home" name="person" />
+                <label for="yasir">HOME</label>
                 <p>Johar colony</p>
               </il>
-            </div>
 
-            <div>
-              <il
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  marginLeft: "50px",
-                }}
-              >
-                <input type="radio" value="" id="yasir" name="person" />
-                <label for="yasir">Yasir</label>
-                <p>Johar colony</p>
+              <il>
+                <input type="radio" value="" id="Office" name="person" />
+                <label for="yasir">OFFICE</label>
+                <p>DHA Karachi</p>
               </il>
             </div>
           </div>
@@ -77,6 +55,7 @@ const OrderSummary = () => {
             control={<Checkbox />}
             label="Billing Address is same as Shipping Address"
             labelPlacement="end"
+            b
             style={{ marginLeft: 13, marginTop: -9 }}
           />
         </div>
@@ -84,21 +63,14 @@ const OrderSummary = () => {
         {/* PAYMENT OPTION BOX */}
         <Box className="payment-options-box">
           <Typography variant="h6">Payment Options</Typography>
-          <div
-            style={{
-              width: "638px",
-              height: "0px",
-              border: "1px solid white",
-              marginBottom: "10px",
-            }}
-          ></div>
+          <div className="divider" />
 
           <div
             style={{
               display: "flex",
               padding: "24px",
               align: "flex-start",
-              gap: "3px",
+              gap: "30px",
             }}
           >
             <div
@@ -156,15 +128,8 @@ const OrderSummary = () => {
         {/* ADDITIONAL INFORMATION */}
         <Box className="Additional-Information">
           <Typography variant="h6">Additional Information</Typography>
-          <div
-            style={{
-              width: "638px",
-              height: "0px",
-              border: "1px solid white",
-              marginBottom: "10px",
-            }}
-          ></div>
-          <p>Order Notes (Optional)</p>
+          <div className="divider" />
+          <Typography variant="h7">Order Notes (Optional)</Typography>
           <p>Notes about your order, e.g. special notes for delivery</p>
         </Box>
       </div>
@@ -173,18 +138,12 @@ const OrderSummary = () => {
       <div style={{ flex: 1, marginLeft: "170px" }}>
         <Box className="Order-Summary">
           <Typography variant="h6">Order Summary</Typography>
-          <div
-            style={{
-              width: "360px",
-              height: "0px",
-              border: "1px solid white",
-              marginBottom: "10px",
-            }}
-          ></div>
+          <div className="divider" />
           <p>Sub-Total</p>
           <p>Shipping</p>
           <p>Discount</p>
           <p>Tax</p>
+          <p>TOTAL: </p>
         </Box>
       </div>
     </div>

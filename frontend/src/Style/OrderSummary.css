@@ -37,3 +37,44 @@
   margin: 2px;
   border-radius: 30px;
 }
+
+.Address-Pay-Additional {
+  display: flex;
+  flex-direction: row;
+}
+
+.address-box .divider {
+  width: 638px;
+  height: 0px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+
+.payment-options-box .divider {
+  width: 638px;
+  height: 0px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.Order-Summary .divider {
+  width: 360px;
+  height: 0px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.Additional-Information .divider {
+  width: 638px;
+  height: 0px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.address-box .Address-list {
+  display: flex;
+  padding: 1px;
+  align-items: flex-start; /* Corrected property name */
+  gap: 300px;
+}
