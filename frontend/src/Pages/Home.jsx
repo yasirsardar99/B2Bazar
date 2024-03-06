@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react";
 // import { useState, useEffect } from 'react';
-import './../Style/Home.css'
-import Carousel from './Carousel'
-import {Navbar} from "./../../src/Routes.js"
-import {TopCategory} from "./../static/TopCategory.js"
-import {HomeCategory} from "./../Routes.js"
-
+import "./../Style/Home.css";
+import Carousel from "./Carousel";
+import { Navbar } from "./../../src/Routes.js";
+import "./../Style/Home.css";
+import { TopCategory } from "./../static/TopCategory.js";
+import { HomeCategory } from "./../Routes.js";
 
 const Home = () => {
-
   return (
     <>
       {/* navbar here */}
@@ -19,12 +18,16 @@ const Home = () => {
         <Carousel />
       </div>
 
+      {/* home working comes here */}
+
       {/* Top categories working comes here */}
-    <div className="mx-2 section d-flex justify-content-between align-items-center">
-    <h4 className="top-category-heading mx-5">Top Categories:</h4>
-    <a href="#" className='see-all mx-5'>See All</a>
-    </div>
-      
+      <div className="mx-2 section d-flex justify-content-between align-items-center">
+        <h4 className="top-category-heading mx-5">Top Categories:</h4>
+        <a href="#" className="see-all mx-5">
+          See All
+        </a>
+      </div>
+
       <hr className="mx-5" />
 
       {/* product card */}
@@ -41,12 +44,15 @@ const Home = () => {
       {/* top importers card */}
 
       <div className="mx-2 section d-flex justify-content-between align-items-center">
-    <h4 className="top-category-heading mx-5">Top Importers:</h4>
-    <a href="#" className='see-all mx-5'>See All</a>
-    </div>
-    <hr className="mx-5" />
+        <h4 className="top-category-heading mx-5">Top Importers:</h4>
+        <a href="#" className="see-all mx-5">
+          See All
+        </a>
+      </div>
+      <hr className="mx-5" />
     </>
   );
 };
 
-export default Home
+export default Home;
+// export default Home

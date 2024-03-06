@@ -1,0 +1,80 @@
+.address-box {
+  width: 678px;
+  height: 150px;
+  background-color: rgb(250, 232, 75);
+  border: 15px solid white;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 30px;
+}
+
+.payment-options-box {
+  width: 678px;
+  height: 190px;
+  background-color: rgb(250, 232, 75);
+  border: 15px solid white;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 30px;
+}
+
+.Additional-Information {
+  width: 678px;
+  height: 147px;
+  background-color: rgb(250, 232, 75);
+  border: 15px solid white;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 30px;
+}
+
+.Order-Summary {
+  width: 400px;
+  height: 483px;
+  background-color: rgb(250, 232, 75);
+  border: 15px solid white;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 30px;
+}
+
+.Address-Pay-Additional {
+  display: flex;
+  flex-direction: row;
+}
+
+.address-box .divider {
+  width: 638px;
+  height: 0px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+
+.payment-options-box .divider {
+  width: 638px;
+  height: 0px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.Order-Summary .divider {
+  width: 360px;
+  height: 0px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.Additional-Information .divider {
+  width: 638px;
+  height: 0px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.address-box .Address-list {
+  display: flex;
+  padding: 1px;
+  align-items: flex-start; /* Corrected property name */
+  gap: 300px;
+}
