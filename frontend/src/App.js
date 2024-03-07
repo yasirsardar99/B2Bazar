@@ -18,6 +18,8 @@ function App() {
         <Route path="/add-to-cart" element={<AddToCart />} />
         <Route path="/top-sales" element={<TopSales />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/Productpage" element={<Productpage />} />
+
       </Routes>
     
     </BrowserRouter>
