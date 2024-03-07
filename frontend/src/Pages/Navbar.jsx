@@ -18,7 +18,9 @@ const Navbar = () => {
           <div className="row">
             <div className="col-md-2 my-1 d-none d-sm-none d-md-block d-lg-block">
               <div className="brand-name d-flex">
+                <Link to="/">
                 <img className="logo " style={{ width: 120 }} src={logo} />
+                </Link>
               </div>
             </div>
             <div className="col-md-5 my-2">

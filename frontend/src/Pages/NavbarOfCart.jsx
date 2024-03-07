@@ -54,11 +54,11 @@ const NavbarOfCart = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link d-flex" href="#">
+                  <Link className="nav-link d-flex" to="#">
                     <Badge badgeContent={1} color="warning">
                       <FavoriteIcon className="mx-1 " color="white" />
                     </Badge>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item  text-white d-flex algin-items-center ">
                   <Link className="nav-link d-flex" to="/login">
