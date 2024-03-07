@@ -7,7 +7,7 @@ import {
   FormControlLabel,
   Badge,
 } from "@mui/material";
-import "../Style/OrderSummary.css"; // Assuming the CSS file exists
+import "../Style/OrderSummary.css";
 import PaymentIcon from "@mui/icons-material/Payment";
 import CurrencyBitcoinIcon from "@mui/icons-material/CurrencyBitcoin";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
