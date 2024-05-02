@@ -1,5 +1,5 @@
 import React from "react";
-import { NavbarOfCart } from "./../Routes.js"; // Assuming the path is correct
+import { NavbarOfCart } from "../Routes.js"; // Assuming the path is correct
 import {
   Box,
   Typography,

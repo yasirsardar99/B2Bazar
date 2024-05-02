@@ -5,13 +5,14 @@ import Navbar from "./Pages/Navbar.jsx"
 import NavbarOfCart from "./Pages/NavbarOfCart.jsx"
 import AddToCart from "./Pages/AddToCart.jsx"
 import Productpage from "./Pages/Productpage.jsx"
-import OrderSummary from "./Components/OrderSummary.jsx"
 import TopSales from "./Pages/TopSales.jsx"
 import Products from "./Pages/Products.jsx"
-import HomeCategory from "./Components/HomeCategory.jsx"
+import OrderSummary from "./components/OrderSummary.jsx"
+import HomeCategory from "./components/HomeCategory.jsx"
 
 export {
     OrderSummary,
+
     HomeCategory,
     Navbar,
     SignUp,

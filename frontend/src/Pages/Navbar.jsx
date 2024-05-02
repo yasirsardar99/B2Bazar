@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./../data/logo/white&yellow.png";
 import "./../Style/navbar.css";
 
@@ -11,17 +11,24 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+
+const [OPencart, SetOpencart] = useState(false);
+
   return (
     <div className="main-navbar shadow-sm sticky-top">
       <div className="top-navbar">
         <div className="container-fluid">
           <div className="row">
+
             <div className="col-md-2 my-1 d-none d-sm-none d-md-block d-lg-block">
-              <div className="brand-name d-flex">
+
+
+              <div className="brand-name  d-flex">
                 <Link to="/">
-                <img className="logo " style={{ width: 120 }} src={logo} />
+                <img className="logo " style={{ width: 120 ,cursor:"pointer"}} src={logo}  />
                 </Link>
               </div>
+
             </div>
             <div className="col-md-5 my-2">
               <form role="search">
@@ -46,13 +53,19 @@ const Navbar = () => {
             </div>
             <div className="col-md-5 my-2">
               <ul className="nav align-items-center d-flex justify-content-end">
-                <li className="nav-item">
+              <li>
+                <button className="btn btn-light btn-sm p-2 px-4" style={{color : "002549", border : "1px", borderRadius : "6px" }} ><b>Become A Seller </b></button>
+              </li>
+
+                <li className="nav-item" >
                   {/* <a className="nav-link d-flex"  href="#">
                                 <i className="fa fa-shopping-cart "></i> Cart 
                                 <ShoppingCartIcon className='mx-1'/>
                             </a> */}
-                  <Link className="nav-link d-flex" to="/add-to-cart">
-                    <Badge badgeContent={3} color="warning">
+
+                            {/* mustafa i remove cart page link right now becuase i am working on cart pop up  */}
+                  <Link className="nav-link d-flex" to="#" >
+                    <Badge badgeContent={3} color="warning" onClick={console.log("hello")}>
                       <ShoppingCartIcon className="mx-1 " color="white" />
                     </Badge>
                   </Link>
