@@ -1,6 +1,6 @@
 export const TopCategory =  [
     {
-    "id": 6,
+    "id": 1,
     "title": "MacBook Pro",
     "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
     "price": 1749,
@@ -18,7 +18,7 @@ export const TopCategory =  [
     ]
     },
     {
-    "id": 16,
+    "id": 2,
     "title": "Hyaluronic Acid Serum",
     "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
     "price": 19,
@@ -37,7 +37,7 @@ export const TopCategory =  [
     ]
     },
     {
-    "id": 17,
+    "id": 3,
     "title": "Tree Oil 30ml",
     "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
     "price": 12,
@@ -55,7 +55,7 @@ export const TopCategory =  [
     ]
     },
     {
-    "id": 25,
+    "id": 4,
     "title": "Gulab Powder 50 Gram",
     "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
     "price": 70,
@@ -74,7 +74,7 @@ export const TopCategory =  [
     ]
     },
     {
-    "id": 26,
+    "id": 5,
     "title": "Plant Hanger For Home",
     "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
     "price": 41,
@@ -94,7 +94,7 @@ export const TopCategory =  [
     ]
     },
     {
-    "id": 27,
+    "id": 6,
     "title": "Flying Wooden Bird",
     "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
     "price": 51,

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./../Style/HomeCategory.css"
 
+
 const HomeCategory = (props) => {
     const {category, thumbnail} = props.data;
 
