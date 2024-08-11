@@ -7,12 +7,12 @@ import { Navbar } from "./../../src/Routes.js";
 import "./../Style/Home.css";
 import { TopCategory } from "./../static/TopCategory.js";
 // import {brandingData} from "./../static/Branding";
-import BrandingSection from "../components/BrandingSection.jsx";
+import BrandingSection from "../Components/BrandingSection.jsx";
 
 import { HomeCategory } from "./../Routes.js";
-import ImporterSection from "../components/ImporterSection.jsx";
-import TopProducts from "../components/TopProducts.jsx";
-import Footer from "../components/Footer.jsx";
+import ImporterSection from "../Components/ImporterSection.jsx";
+import TopProducts from "../Components/TopProducts.jsx";
+import Footer from "../Components/Footer.jsx";
 
 const Home = () => {
   return (
@@ -27,10 +27,7 @@ const Home = () => {
 
       {/* home working comes here */}
           <BrandingSection/>
- 
-           
-            
-
+          
       {/* Top categories working comes here */}
       <div className="mx-2 section d-flex justify-content-between align-items-center">
         <h4 className="top-category-heading mx-5">Top Categories:</h4>
@@ -63,4 +60,3 @@ const Home = () => {
 };
 
 export default Home;
-// export default Home
